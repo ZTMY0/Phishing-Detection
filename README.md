@@ -56,12 +56,12 @@ flowchart TB
 
 ![Schéma d'architecture PhishGuard](docs/architecture/schema.svg)
 
-## Livrables (§10)
+## Livrables
 
 | Livrable | Emplacement |
 |----------|-------------|
 | Code source | racine du dépôt |
-| README | `README.md` (ce fichier) |
+| README | `README.md` |
 | **Schéma d'architecture** | **`docs/architecture/`** — voir [instructions](docs/architecture/README.md) |
 | Rapport (4–8 pages) | `docs/rapport.tex` → compiler en `docs/rapport.pdf` |
 | Jeu de données démo | [`docs/demo/`](docs/demo/) |
