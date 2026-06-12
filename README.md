@@ -33,26 +33,9 @@ Windows : `start_all.bat` · Interface : **http://localhost:8000/app/index.html*
 
 ## Architecture
 
-GitHub affiche le diagramme Mermaid ci-dessous directement dans ce README. Version statique : [`docs/architecture/schema.svg`](docs/architecture/schema.svg).
+## Architecture
 
-```mermaid
-flowchart TB
-    Client["Client Web<br/>client/index.html"]
-    GW["API Gateway<br/>FastAPI :8000"]
-    Auth["AuthService<br/>JWT · bcrypt :8001"]
-    Ana["AnalysisService<br/>gRPC · Protobuf :50051"]
-    Aud["AuditService<br/>:8003"]
-    DB[("SQLite<br/>data/phishguard.db")]
-    Log[("JSONL<br/>audit.jsonl")]
-
-    Client -->|"HTTP/JSON REST"| GW
-    GW -->|"verify token"| Auth
-    GW -->|"Analyze"| Ana
-    GW -->|"log event"| Aud
-    GW -->|"reports"| DB
-    Auth -->|"users"| DB
-    Aud -->|"append"| Log
-```
+![Schéma d'architecture](docs/architecture/schema.svg)
 
 ## Livrables
 
@@ -67,7 +50,7 @@ flowchart TB
 
 ## Structure
 
-```
+
 auth_service/       JWT + rôles (SQLite)
 api_gateway/        REST, orchestration
 analysis_service/   scoring heuristique (gRPC)
@@ -81,7 +64,7 @@ docs/
   threats.md          ← menaces et protections
   rapport.tex         ← rapport LaTeX
 ```
-
+```
 ## Démo
 
 1. Connexion analyste → soumettre `docs/demo/phishing_credential_harvest.json`
@@ -89,3 +72,4 @@ docs/
 3. Admin → journal d'audit
 
 Détails : [`docs/demo/README.md`](docs/demo/README.md)
+```
