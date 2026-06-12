@@ -1,4 +1,4 @@
-# PhishGuard
+# Phishing Detection
 
 Plateforme distribuée (Python) pour signaler et qualifier des e-mails de phishing — projet de fin de semestre.
 
