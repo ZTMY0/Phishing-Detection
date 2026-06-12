@@ -54,8 +54,6 @@ flowchart TB
     Aud -->|"append"| Log
 ```
 
-![Schéma d'architecture PhishGuard](docs/architecture/schema.svg)
-
 ## Livrables
 
 | Livrable | Emplacement |
