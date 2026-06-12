@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+grpcio
+grpcio-tools
+protobuf
+pydantic
+pydantic-settings
+httpx
+python-jose[cryptography]
+bcrypt
+python-multipart
+structlog
+python-dotenv

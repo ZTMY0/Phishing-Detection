@@ -1,0 +1,10 @@
+{
+  "declared_sender": "alert@paypa1-secure.com",
+  "subject": "Action requise : votre compte a été restreint",
+  "body": "Bonjour,\n\nNous avons détecté une connexion inhabituelle sur votre compte PayPal depuis un appareil inconnu (Maroc, 03:42).\n\nPour sécuriser votre compte, veuillez vérifier votre identité dans les prochaines 24h. Sans action de votre part, votre compte sera suspendu définitivement.\n\nCliquez ici pour confirmer : http://192.168.88.12/paypal/verify\n\nCordialement,\nL'équipe PayPal Sécurité",
+  "urls": [
+    "http://192.168.88.12/paypal/verify",
+    "http://paypa1-secure.com/help"
+  ],
+  "has_attachments": false
+}

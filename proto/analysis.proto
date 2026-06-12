@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package analysis;
+
+service Analyzer {
+  rpc Analyze (AnalyzeRequest) returns (AnalyzeResponse);
+}
+
+message AnalyzeRequest {
+  string declared_sender = 1;
+  string subject         = 2;
+  string body            = 3;
+  repeated string urls   = 4;
+  bool has_attachments   = 5;
+}
+
+message AnalyzeResponse {
+  string risk_level      = 1;  // low | medium | high
+  int32  score           = 2;  // 0-100
+  repeated string reasons = 3;
+  map<string, bool> flags = 4;
+}

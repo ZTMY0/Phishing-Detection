@@ -1,0 +1,10 @@
+{
+  "declared_sender": "livraison@arnazon-maroc.top",
+  "subject": "Votre colis n'a pas pu être livré — reprogrammer",
+  "body": "Voir l'image.",
+  "urls": [
+    "http://arnazon-maroc.top/relivraison",
+    "http://arnazon-maroc.top/contact"
+  ],
+  "has_attachments": false
+}

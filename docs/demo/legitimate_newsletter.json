@@ -1,0 +1,10 @@
+{
+  "declared_sender": "notifications@github.com",
+  "subject": "Résumé de votre activité GitHub — mai 2026",
+  "body": "Bonjour Ihab,\n\nVoici un résumé de votre activité GitHub pour le mois de mai 2026.\n\nVous avez effectué 47 commits sur 3 dépôts. Votre dépôt le plus actif ce mois-ci est PhishGuard avec 31 commits.\n\nConsultez votre tableau de bord complet sur https://github.com/dashboard\n\nBonne continuation,\nL'équipe GitHub",
+  "urls": [
+    "https://github.com/dashboard",
+    "https://github.com/notifications/unsubscribe"
+  ],
+  "has_attachments": false
+}

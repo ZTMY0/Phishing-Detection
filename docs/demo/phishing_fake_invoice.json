@@ -1,0 +1,11 @@
+{
+  "declared_sender": "facturation@faceb00k-ads.xyz",
+  "subject": "Facture publicitaire #AD-20260527 — Paiement en attente",
+  "body": "Bonjour,\n\nVeuillez trouver ci-joint votre facture pour les services publicitaires Facebook du mois de mai 2026.\n\nMontant dû : 890,00 MAD\nÉchéance : 48 heures\n\nSi vous contestez cette facture, cliquez sur le lien ci-dessous avant l'échéance, sinon le prélèvement sera effectué automatiquement.\n\nhttps://bit.ly/fb-ads-contest26\n\nMerci,\nFacebook Business",
+  "urls": [
+    "https://bit.ly/fb-ads-contest26",
+    "https://faceb00k-ads.xyz/invoice/890",
+    "https://faceb00k-ads.xyz/cgu"
+  ],
+  "has_attachments": true
+}
